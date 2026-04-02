@@ -251,21 +251,6 @@ rules:
 #  - RGEOSITE,Bybit,Crypto
 #  - GEOSITE,Binance,Crypto
 
-# --------   流媒体  ---------
-#  - RULE-SET,TikTok / Domain,Stream Media
-#  - RULE-SET,Netflix / Domain,Stream Media
-#  - RULE-SET,Netflix / IP,Stream Media,no-resolve
-#  - RULE-SET,Disney / Domain,Stream Media
-#  - RULE-SET,Amazon / Domain,Stream Media
-#  - RULE-SET,HBO / Domain,Stream Media
-#  - RULE-SET,Crunchyroll / Domain,Stream Media
-#  - RULE-SET,Popcorn / Domain,Stream Media  
-#  - RULE-SET,Spotify / Domain,Stream Media
-  - RULE-SET,TikTok,Stream Media
-  - RULE-SET,Netflix,Stream Media
-  - GEOIP,Netflix,Stream Media,no-resolve
-  - RULE-SET,youtube,Stream Media  
-
 # --------   游戏  ---------
   - RULE-SET,Steam,Games
 #  - RULE-SET,Steam / Domain,Games
@@ -284,6 +269,21 @@ rules:
   - RULE-SET,instgram,Commu
   - RULE-SET,facebook,Commu
 
+# --------   流媒体  ---------
+#  - RULE-SET,TikTok / Domain,Stream Media
+#  - RULE-SET,Netflix / Domain,Stream Media
+#  - RULE-SET,Netflix / IP,Stream Media,no-resolve
+#  - RULE-SET,Disney / Domain,Stream Media
+#  - RULE-SET,Amazon / Domain,Stream Media
+#  - RULE-SET,HBO / Domain,Stream Media
+#  - RULE-SET,Crunchyroll / Domain,Stream Media
+#  - RULE-SET,Popcorn / Domain,Stream Media  
+#  - RULE-SET,Spotify / Domain,Stream Media
+#  - RULE-SET,TikTok,Stream Media
+#  - RULE-SET,Netflix,Stream Media
+#  - GEOIP,Netflix,Stream Media,no-resolve
+#  - RULE-SET,youtube,Stream Media  
+  - RULE-SET,category-entertainment,Stream Media
 
 # --------   其他  ---------
   - RULE-SET,category-porn,Porn

@@ -264,10 +264,11 @@ rules:
 # --------   社交/通讯  ---------
   - GEOSITE,telegram,Commu
   - GEOIP,telegram,Commu,no-resolve
-
   - GEOSITE,twitter,Commu
-  - GEOSITE,instgram,Commu
+  - GEOSITE,instagram,Commu
   - GEOSITE,facebook,Commu
+  - GEOSITE,category-communication,Commu
+  - GEOSITE,category-social-media-!cn,Commu
 
 # --------   流媒体  ---------
 #  - RULE-SET,TikTok / Domain,Stream Media
@@ -303,9 +304,9 @@ rules:
 #  - RULE-SET,China / Domain,国内
 #  - RULE-SET,China / IP,国内,no-resolve
 #  - RULE-SET,Private / Domain,国内
-  - RULE-SET,cn,国内
+  - GEOSITE,cn,国内
   - GEOIP,cn,国内,no-resolve
-  - RULE-SET,private,国内
+  - GEOSITE,private,国内
   - MATCH,其他
 
 # ========================

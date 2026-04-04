@@ -73,7 +73,6 @@ proxy-groups:
 
   # 业务分流组
   - {name: AI, <<: *default}
-  - {name: Youtube, <<: *default}
   - {name: Stream Media, <<: *default}
   - {name: Google, <<: *default}  
   - {name: Microsoft, <<: *default}

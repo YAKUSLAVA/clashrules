@@ -7,7 +7,7 @@
 proxy-providers:
 
   牛逼:
-    url: "https://zhuzhuzhu.whtjdasha.com/dazhutou/3349cf7c53140a54f9a978f5885abc42"  
+    url: "机场订阅地址"  
     type: http
     interval: 86400
     health-check:
@@ -18,7 +18,7 @@ proxy-providers:
     proxy: 直连
     
   自建-美国:
-    url: "https://vps.royal90.dynv6.net:2096/sub/MzBQVlgf?format=clash"  
+    url: "我的自建节点cliproxy"  
     type: http
     interval: 86400
     health-check:
